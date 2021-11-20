@@ -1,0 +1,24 @@
+﻿main.obj : error LNK2019: unresolved external symbol __imp_glutInitWindowSize referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutInitDisplayMode referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutMainLoop referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutReshapeWindow referenced in function "void __cdecl keyboard(unsigned char,int,int)" (?keyboard@@YAXEHH@Z)
+main.obj : error LNK2019: unresolved external symbol __imp_glutPositionWindow referenced in function "void __cdecl keyboard(unsigned char,int,int)" (?keyboard@@YAXEHH@Z)
+main.obj : error LNK2019: unresolved external symbol __imp_glutFullScreen referenced in function "void __cdecl keyboard(unsigned char,int,int)" (?keyboard@@YAXEHH@Z)
+main.obj : error LNK2019: unresolved external symbol __imp_glutPostRedisplay referenced in function "void __cdecl Mouse(int,int,int,int)" (?Mouse@@YAXHHHH@Z)
+main.obj : error LNK2019: unresolved external symbol __imp_glutSwapBuffers referenced in function "void __cdecl RenderScene(void)" (?RenderScene@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp_glutTimerFunc referenced in function "void __cdecl TimerFunction(int)" (?TimerFunction@@YAXH@Z)
+main.obj : error LNK2019: unresolved external symbol __imp_glutKeyboardFunc referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutSpecialFunc referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutReshapeFunc referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutDisplayFunc referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutMouseFunc referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutGet referenced in function "void __cdecl calculateFPS(void)" (?calculateFPS@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp_glutBitmapCharacter referenced in function "void __cdecl drawString(float,float,float,char const *)" (?drawString@@YAXMMMPEBD@Z)
+main.obj : error LNK2019: unresolved external symbol __imp_glutStrokeCharacter referenced in function "void __cdecl draw_chPlane_text(void)" (?draw_chPlane_text@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp___glutInitWithExit referenced in function glutInit_ATEXIT_HACK
+main.obj : error LNK2019: unresolved external symbol __imp___glutCreateWindowWithExit referenced in function glutCreateWindow_ATEXIT_HACK
+main.obj : error LNK2019: unresolved external symbol SOIL_load_OGL_texture referenced in function "void __cdecl RenderScene(void)" (?RenderScene@@YAXXZ)
+F:\computer graphics prooject\CG-mini-project-master\Final\..\External lib\freeglut\lib\freeglut.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+F:\computer graphics prooject\CG-mini-project-master\Final\..\External lib\glew-1.11.0\lib\glew32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+F:\computer graphics prooject\CG-mini-project-master\Final\..\External lib\SOIL2\lib\soil2-debug.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+F:\computer graphics prooject\CG-mini-project-master\Final\x64\Debug\CG-mini-project.exe : fatal error LNK1120: 20 unresolved externals
